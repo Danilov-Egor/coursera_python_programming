@@ -1,0 +1,8 @@
+N = int(input())
+k = 1
+i = 0
+while k <= N:
+    if k >= N:
+        print(i)
+    k *= 2
+    i += 1

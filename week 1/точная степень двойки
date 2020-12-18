@@ -1,0 +1,9 @@
+N = int(input())
+g = 1
+while g <= N:
+    if g == N:
+        print("YES")
+        break
+    g *= 2
+    if g > N:
+        print("NO")

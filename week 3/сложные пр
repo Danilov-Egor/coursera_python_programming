@@ -1,0 +1,13 @@
+p = int(input())
+x = int(input())
+y = int(input())
+k = int(input())
+p += 100
+decimal = x * 100 + y
+n = 0
+while n < k:
+    decimal = decimal * p // 100
+    n += 1
+x = decimal // 100
+y = decimal % 100
+print(x, y)

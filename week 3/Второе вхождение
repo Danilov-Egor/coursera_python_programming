@@ -1,0 +1,11 @@
+string = str(input())
+first = string.find("f")
+if first == -1:
+    print(-2)
+else:
+    string = string[first+1:]
+    second = string.find("f")
+    if second == -1:
+        print(-1)
+    else:
+        print(first+1+second)

@@ -1,0 +1,6 @@
+def reversed():
+    n = int(input())
+    if n != 0:
+        reversed()
+    print(n)
+reversed()

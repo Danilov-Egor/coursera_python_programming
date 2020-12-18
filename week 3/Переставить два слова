@@ -1,0 +1,3 @@
+string = str(input())
+words = string.split(" ")
+print(words[1], words[0])

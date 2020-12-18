@@ -1,0 +1,8 @@
+import math
+x = float(input())
+dot_index = str(x).find(".")
+if int(str(x)[dot_index+1]) >= 5:
+    x = math.ceil(x)
+else:
+    x = math.floor(x)
+print(x)

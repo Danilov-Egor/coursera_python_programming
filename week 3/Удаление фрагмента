@@ -1,0 +1,5 @@
+string = str(input())
+first = string.find("h")
+last = string.rfind("h")
+output = string[:first] + string[last+1:]
+print(output)

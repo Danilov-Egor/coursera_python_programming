@@ -1,0 +1,9 @@
+k, m, n = int(input()),  int(input()),  int(input())
+if n <= k:
+    print(m * 2)
+elif n % k == 0:
+    print((n // k) * (2 * m))
+elif round(n % k) > (k // 2):
+    print((n // k + 1) * (2 * m))
+else:
+    print(((n // k + 1) * (2 * m)) - m)

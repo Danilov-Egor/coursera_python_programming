@@ -1,0 +1,8 @@
+def distance(a, b, c, d):
+    dist = ((a - c)**2 + (b - d)**2)**(.5)
+    return dist
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+print(distance(a, b, c, d))

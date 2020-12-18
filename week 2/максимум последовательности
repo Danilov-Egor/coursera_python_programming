@@ -1,0 +1,6 @@
+n = 1
+z = []
+while n != 0:
+    n = int(input())
+    z.append(n)
+print(max(z))

@@ -1,0 +1,8 @@
+P = int(input())
+X = int(input())
+Y = int(input())
+XY = float(X * 100 + Y)
+percentsxy = ((XY / 100 * P)+XY)
+cop = int(percentsxy) % 100
+rubles = int(percentsxy) // 100
+print(rubles, cop, end=(' '))

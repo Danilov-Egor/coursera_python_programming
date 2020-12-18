@@ -1,0 +1,19 @@
+from math import sqrt
+i = 1
+n = 0
+d = []
+while i != 0:
+    f = int(input())
+    if f != 0:
+        n += 1
+        d.append(f)
+    i = f
+sum_mean = 0
+for elem in d:
+    sum_mean += elem
+mean_d = sum_mean / n
+sum_squares = 0
+for g in d:
+    squares = (g - mean_d)**2
+    sum_squares += squares
+print(sqrt(sum_squares / (n - 1)) )

@@ -1,0 +1,9 @@
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+if ((A - C == 1) | (A - C == -1)):
+    if ((B - D == 1) | (B - D == -1)):
+        print("YES")
+else:
+    print("NO")

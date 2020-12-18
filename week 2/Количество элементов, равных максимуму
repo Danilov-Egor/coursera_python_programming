@@ -1,0 +1,11 @@
+n = 1
+z = 0
+i = 0
+while n != 0:
+    n = int(input())
+    if n > z:
+        z = n
+        i = 0
+    if z == n:
+        i += 1
+print(i)

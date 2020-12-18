@@ -1,0 +1,4 @@
+X = float(input())
+integer_part = int(X)
+length_of_int = len(str(integer_part))
+print("0"+str(X)[length_of_int:])

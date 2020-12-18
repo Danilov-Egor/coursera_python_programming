@@ -1,0 +1,3 @@
+import math
+X = float(input())
+print(math.floor(X), round(100 * (X - math.floor(X))))

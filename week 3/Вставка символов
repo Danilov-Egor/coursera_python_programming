@@ -1,0 +1,4 @@
+f = str(input())
+g = list(f)
+h = '*'.join(g)
+print(h)
