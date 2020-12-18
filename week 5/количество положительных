@@ -1,0 +1,6 @@
+n = input().split(" ")
+amount = 0
+for i in n:
+    if int(i) > 0:
+        amount += 1
+print(amount)

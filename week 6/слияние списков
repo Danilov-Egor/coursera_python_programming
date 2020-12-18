@@ -1,0 +1,16 @@
+a1 = list(map(int, input().split()))[::-1]
+b1 = list(map(int, input().split()))[::-1]
+
+
+def merge(a, b):
+    new = []
+    while a and b:
+        if a[-1] <= b[-1]:
+            new.append(a.pop(-1))
+        else:
+            new.append(b.pop(-1))
+    new = new + a[-1::-1] + b[-1::-1]
+    return new
+
+
+print(*merge(a1, b1))
